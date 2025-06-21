@@ -1,0 +1,95 @@
+[
+  {
+    "fact": "This arbitration case, CMC v. Mozambique, arose from a road rehabilitation project (Lot 3) in Mozambique undertaken by Italian construction companies (CMC), financed by the European Development Fund (EDF). After completing the work in 2007, CMC sought additional compensation. The project engineer initially awarded EUR 2.4 million in May 2009. Mozambique's national roads administration (ANE) subsequently offered EUR 8.2 million in October 2009 to settle all claims. CMC responded in November 2009, agreeing to the amount but 'clarifying' that it was *additional* to the EUR 2.4 million already certified. Mozambique viewed this as a counteroffer and denied that a binding settlement agreement was ever reached. CMC initiated ICSID arbitration in 2017, alleging that Mozambique breached the Italy-Mozambique Bilateral Investment Treaty (BIT) by failing to honor the alleged settlement agreement and through other conduct. The Tribunal found that no binding settlement agreement was concluded between the parties. While the Tribunal asserted jurisdiction over the BIT claims, it ultimately dismissed all of CMC's claims on the merits. The costs of the arbitration were ordered to be borne equally by both parties, with each party bearing its own legal expenses.",
+    "meta": {
+      "relevant_articles": [
+        "ICSID Convention Article 25",
+        "Italy-Mozambique BIT Article 1",
+        "Italy-Mozambique BIT Article 2(3)",
+        "Italy-Mozambique BIT Article 2(4)",
+        "Italy-Mozambique BIT Article 3",
+        "Italy-Mozambique BIT Article 9",
+        "Italy-Mozambique BIT Article 12",
+        "Italy-Mozambique BIT Article 15",
+        "Cotonou Convention Annex IV Article 30",
+        "Cotonou Convention Article 91",
+        "Vienna Convention on the Law of Treaties Article 30"
+      ],
+      "accusation": [
+        "Breach of Italy-Mozambique BIT Article 2(3) (failure to ensure just and fair treatment of investments, including arbitrary, inconsistent, contradictory conduct, frustrating legitimate expectations, acting in bad faith, lack of transparency, and coercion)",
+        "Breach of Italy-Mozambique BIT Article 2(3) (subjecting investments to unjustified or discriminatory measures)",
+        "Breach of Italy-Mozambique BIT Article 2(4) (failure to create and maintain a legal framework guaranteeing continuity of legal treatment and good faith compliance with undertakings)",
+        "Breach of Italy-Mozambique BIT Article 3 (Most Favoured Nation clause, by failing to observe obligations assumed with regard to investments, specifically importing an umbrella clause from the Switzerland-Mozambique BIT)",
+        "Unjust enrichment (alternative damages theory)"
+      ],
+      "term_of_imprisonment": {
+        "death_penalty": false,
+        "imprisonment": 0,
+        "life_imprisonment": false
+      },
+      "applicable_treaties": [
+        "Agreement Between the Government of the Italian Republic and the Government of the Republic of Mozambique on the Promotion and Reciprocal Protection of Investments (1998)"
+      ],
+      "party_nationalities": [
+        "Italy",
+        "Mozambique"
+      ],
+      "status": "Decided in favor of State"
+    },
+    "caseID": "IDS-809",
+    "fact_split": {
+      "zhuguan": "CMC's belief that its November 2, 2009 letter was an acceptance of ANE's offer, clarifying that the EUR 8.2 million was *additional* to the EUR 2.4 million already certified.\nCMC's assertion that Mozambique's conduct was arbitrary, inconsistent, contradictory, in bad faith, non-transparent, and coercive.\nCMC's legitimate expectation of payment based on the alleged settlement agreement.\nMr. Gridella's stated intention that CMC's November 2, 2009 letter was an acceptance and not a counteroffer.\nMozambique's consistent position that no settlement agreement was reached, viewing CMC's November 2, 2009 letter as a counteroffer.\nMr. Grachane's opinion that ANE's October 30, 2009 offer was 'unfounded' and that CMC's response was an unacceptable counteroffer.\nMozambique's argument that the ECJ's *Achmea* decision invalidates the BIT's arbitration clause due to reciprocity.\nThe Tribunal's interpretation of ANE's intention regarding the settlement offer based on documentary evidence, concluding it was meant to include, not be additional to, prior certified amounts.",
+      "keguan": "Italian construction companies (CMC) undertook the Lot 3 Road Rehabilitation Project in Mozambique.\nThe project was financed by the European Development Fund (EDF).\nThe Lot 3 Contract (Public Works Contract No 307/DEN/04) was signed on March 16, 2005.\nThe construction work was substantially completed by November 2007.\nThe project engineer issued a determination on May 11, 2009, awarding CMC EUR 2,440,925.\nANE (Mozambique's roads administration) sent an offer letter on October 30, 2009, proposing to settle all claims for EUR 8,220,888.\nCMC responded with a letter on November 2, 2009, stating agreement but adding a clarification.\nMozambique experienced presidential, legislative, and provincial assembly elections on October 28, 2009, leading to changes in ministerial and ANE leadership in early 2010.\nCMC submitted invoices for EUR 8.2 million in January 2010.\nANE sent a letter on August 8, 2011, refusing further payment and stating no balance was due.\nANE obtained an 'Opinion' from Consultec Consultores Associados LDA in June 2011, which was provided to CMC in November 2011.\nCMC sent a letter to ANE on August 18, 2016, characterized as notice of a dispute under BIT Article 9(3).\nICSID arbitration was commenced by CMC on May 8, 2017.\nThe Respondent filed preliminary objections to jurisdiction and requested bifurcation, which was denied by the Tribunal.\nA hearing on Jurisdiction and the Merits was held from April 29 to May 1, 2019.\nThe Final Award was issued on October 24, 2019.\nThe Tribunal found no binding settlement agreement was concluded.\nThe Tribunal found it had jurisdiction over the BIT claims.\nThe Tribunal dismissed all of the Claimants' claims on the merits.\nThe Tribunal ordered the costs of the arbitration to be borne equally by the parties.",
+      "shiwai": "The case is identified as ICSID Case No. ARB/17/23, titled 'CMC v. Mozambique'.\nThe industries involved are Construction and Civil Infrastructure.\nThe status of the case is 'Decided in favor of State'.\nParty nationalities are Italy (Claimant) and Mozambique (Respondent).\nThe arbitration was conducted under ICSID Rules of Procedure for Arbitration Proceedings (2006).\nThe dispute involved the interplay of the Italy-Mozambique BIT, the ICSID Convention, and the Cotonou Convention.\nThe *Achmea* decision of the European Court of Justice (ECJ) and the subsequent Joint Declaration of 22 EU Member States (including Italy) were central to jurisdictional arguments regarding EU law and BITs.\nThe Tribunal considered the *Salini* test for investment definition under ICSID Convention Article 25.\nThe Tribunal applied Mozambican law principles of offer and acceptance to determine the existence of a settlement agreement.\nThe Tribunal noted that the dispute did not arise 'during the performance' of the Lot 3 Contract, which was critical for the applicability of the Cotonou Convention's arbitration rules.\nThe Tribunal's decision on costs reflected that each party had succeeded on a 'significant element' of the case (jurisdiction for Claimants, merits for Respondent).\nThe context included Mozambique's need for infrastructure rehabilitation and the role of international financing (EDF).\nThe Respondent's arguments included the applicability of Mozambican statutes of limitation to the claims.\nThe case involved the interpretation of treaty clauses, including MFN and umbrella clauses, and their interaction."
+    }
+  },
+  {
+    "fact": "Bank Melli Iran and Bank Saderat Iran (Claimants), Iranian state-owned banks, established Future Bank in Bahrain in 2004. The dispute arose from the Central Bank of Bahrain's (CBB) decision on April 30, 2015, to place Future Bank under forced administration, followed by a resolution to liquidate it on December 22, 2016. The Claimants alleged that Bahrain expropriated their investment without justification, due process, fairness, proportionality, or compensation, in violation of the bilateral investment treaty (BIT). Bahrain denied the claims, asserting that Future Bank engaged in systemic illegal activities, including sanctions violations, money laundering, wire stripping, and misrepresentation, which rendered the claims inadmissible. The Tribunal found that while some violations by Future Bank were established, they were not severe enough to bar the claims. The Tribunal concluded that Bahrain's measures were not a bona fide regulatory response but were politically motivated, disproportionate, and lacked contemporaneous justification, thus constituting an unlawful indirect expropriation.",
+    "meta": {
+      "relevant_articles": [
+        "Article 11 (Settlement of Disputes between a Contracting Party and Investor(s) of the other Contracting Party)",
+        "Article 1(1) (Definition of Investment, legality clause)",
+        "Article 6 (Expropriation)",
+        "Article 4 (Full legal protection and fair treatment, non-discrimination)",
+        "Article 5 (More favourable provisions)"
+      ],
+      "accusation": [
+        "Claimants alleged: Unlawful expropriation of investment by Bahrain.",
+        "Claimants alleged: Breach of Fair and Equitable Treatment (FET) by Bahrain.",
+        "Claimants alleged: Breach of Full Protection and Security (FPS) by Bahrain.",
+        "Claimants alleged: Lack of public purpose for the administration/liquidation.",
+        "Claimants alleged: Discriminatory treatment by Bahrain.",
+        "Claimants alleged: Lack of due process in the administration/liquidation.",
+        "Claimants alleged: Disproportionate measures by Bahrain.",
+        "Claimants alleged: Failure to provide prompt, adequate, and effective compensation.",
+        "Respondent alleged: Claimants' illegal activities (unclean hands doctrine).",
+        "Respondent alleged: Violations of international public policy by Claimants.",
+        "Respondent alleged: Future Bank's systematic sanctions violations (UN, US, EU).",
+        "Respondent alleged: Future Bank's failure to monitor and disclose suspicious transactions.",
+        "Respondent alleged: Future Bank's recurrent wire stripping.",
+        "Respondent alleged: Future Bank's unauthorized use of Alternative Messaging System (AMS).",
+        "Respondent alleged: Future Bank's misrepresentation of Iranian exposure.",
+        "Respondent alleged: Claimants' failure to exhaust local remedies."
+      ],
+      "term_of_imprisonment": {
+        "death_penalty": false,
+        "imprisonment": 0,
+        "life_imprisonment": false
+      },
+      "applicable_treaties": [
+        "Agreement on Reciprocal Promotion and Between the Government of the Kingdom of Bahrain and the Government of the Islamic Republic of Iran (2002)"
+      ],
+      "party_nationalities": [
+        "Bahrain",
+        "Iran"
+      ],
+      "status": "Decided in favor of investor"
+    },
+    "caseID": "IDS-817",
+    "fact_split": {
+      "zhuguan": "Claimants' intention: To operate Future Bank as a successful commercial bank.\nClaimants' belief: CBB's actions were politically motivated due to the JCPOA and Saudi pressure, not genuine regulatory concerns.\nClaimants' belief: CBB's justifications for administration were pretextual and post-hoc.\nRespondent's intention: To protect the Bahraini financial sector from Future Bank's alleged systemic violations.\nRespondent's belief: Future Bank's management concealed illicit activities and misrepresented information.\nTribunal's finding: CBB's decision to administer and liquidate Future Bank was a 'political one' and not a result of the bank's alleged shortcomings.\nTribunal's finding: The Respondent acted with a 'contrived agenda of political retribution' against the Claimants' investment.",
+      "keguan": "Future Bank established in Bahrain by Claimants and Ahli United Bank in 2004.\nUN Security Council, US, and EU sanctions against Iran and Iranian entities imposed from 2006 onwards.\nCBB issued directives to banks regarding UN and US sanctions (e.g., March 2008, September 2010).\nFuture Bank's operations, including refinancing agreement with Central Bank of Iran (2006).\nCBB conducted various compliance and inspection reports on Future Bank (2006, 2008, 2009, 2010, 2011, 2012).\nFuture Bank responded to CBB reports, implementing measures and submitting action plans.\nFuture Bank disconnected from SWIFT network on March 21, 2012.\nFuture Bank used Alternative Messaging System (AMS) for inter-bank payments.\nFuture Bank's Iranian exposure fluctuated, with CBB issuing instructions to reduce it.\nJoint Comprehensive Plan of Action (JCPOA) signed on July 14, 2015, anticipating sanctions relief.\nCBB Crisis Management Committee met on April 30, 2015, and recommended placing Future Bank under administration.\nCBB delivered decision to place Future Bank under administration on April 30, 2015.\nCBB took control of Future Bank premises and excluded management on April 30, 2015.\nCBB published administration decision in Official Gazette on May 7, 2015.\nFuture Bank appealed the CBB decision on May 7, 2015.\nCBB dismissed Future Bank's appeal on May 18, 2015.\nCBB initiated investigation into Future Bank's activities on May 5, 2015, producing 2015 CBB Report on May 24, 2015.\nCBB resolved to liquidate Future Bank on December 22, 2016.\nCBB ordered comprehensive investigation (2017) resulting in 2018 CBB Report (February 16, 2018).\nArbitration proceedings commenced (February 8, 2017), Tribunal constituted, hearings held.\nPresiding Arbitrator Professor Rudolf Dolzer passed away (April 6, 2020), replaced by Professor Gabrielle Kaufmann-Kohler.\nCo-arbitrator Professor Emmanuel Gaillard passed away (April 6, 2021), replaced by Professor Bernard Hanotiau.",
+      "shiwai": "Future Bank experienced significant growth and profitability from 2004 to 2007.\nFuture Bank maintained profitability despite increased CBB supervision.\nFuture Bank moved to a new building and upgraded ATM systems in 2013, with CBB approval.\nFuture Bank reported record net profits in 2013 and 2014.\nFuture Bank's business model was heavily reliant on dealings with Iranian entities and shareholders.\nCBB had not issued fines or specific warnings to Future Bank since 2012 prior to administration.\nCBB did not conduct a thorough review or consider less restrictive measures before administration.\nIran Insurance Company, another Iranian entity, was also placed under administration on the same day as Future Bank.\nPolitical context: JCPOA anticipation and alleged Saudi pressure on Bahrain to sever ties with Iran.\nBahrain's economic dependence on Saudi Arabia.\nFuture Bank's management was informed the administration was a 'Sovereign Decision'.\nLiquidation process of Future Bank is ongoing, and Claimants retain nominal shareholding but cannot exercise rights.\nClaimants' reputation allegedly damaged by Respondent's actions and media leaks (e.g., Washington Post article)."
+    }
+  }
+]

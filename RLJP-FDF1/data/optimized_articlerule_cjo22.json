@@ -1,0 +1,155 @@
+[{
+    "article": 340,
+    "article_text": "第三百四十条违反保护水产资源法规，在禁渔区、禁渔期或者使用禁用的工具、方法捕捞水产品，情节严重的，处三年以下有期徒刑、拘役、管制或者罚金。",
+    "rule": "IF (案件类型是渔业) AND ((在禁渔期 OR 在禁渔区) AND (使用禁用工具 OR 使用禁用方法) AND (造成生态损害 OR 渔业资源损失)) THEN 触犯第340条"
+},
+{
+    "article": 275,
+    "rule": "The current first-order logic expression is as follows. Please use the expression to reason about the case fact step by step and determine whether expression can correctly describe the illegal act of the case fact.\nFOL:IF (行为 = 故意毁坏公私财物) AND (损失金额 ≥ 数额较大) THEN (涉嫌触犯第275条法律)\n",
+    "article_text": "第二百七十五条故意毁坏公私财物，数额较大或者有其他严重情节的，处三年以下有期徒刑、拘役或者罚金；数额巨大或者有其他特别严重情节的，处三年以上七年以下有期徒刑。",
+    "acc": 0.4666666666666667
+},
+{
+    "article": 382,
+    "rule": "FOL: IF (一个人是国家工作人员 OR 被国有组织委托管理、经营国有财产)\nAND (利用职务上的便利 specifically involving 审计、监管、管理等涉及公共财物的职务行为)\nAND (以侵吞 OR 窃取 OR 骗取 OR 其他相似的手段非法占有公共财物)\nAND (非法占有的财物为明确属于国有财产)\nTHEN (此行为触犯第382条法条)\n<",
+    "article_text": "第三百八十二条国家工作人员利用职务上的便利，侵吞、窃取、骗取或者以其他手段非法占有公共财物的，是贪污罪。受国家机关、国有公司、企业、事业单位、人民团体委托管理、经营国有财产的人员，利用职务上的便利，侵吞、窃取、骗取或者以其他手段非法占有国有财物的，以贪污论。与前两款所列人员勾结，伙同贪污的，以共犯论处。",
+    "acc": 0.34444444444444444
+},
+{
+    "article": 277,
+    "rule": "IF (被告人使用 “暴力” OR “威胁方法”)  \nAND (阻碍 (国家机关工作人员 OR 全国人民代表大会代表 OR 地方各级人民代表大会代表 OR 红十字会工作人员) 依法执行 (职务 OR 代表职务 OR 履行职责))  \nTHEN 触犯第二百七十七条法律  \nELSE IF (被告人故意阻碍 (国家安全机关 OR 公安机关) 依法执行国家安全工作任务)  \nAND 未使用 “暴力” OR “威胁方法”  \nAND 造成严重后果  \nTHEN 触犯第二百七十七条法律  \nELSE NOT 触犯第二百七十七条法律\n<",
+    "article_text": "第二百七十七条以暴力、威胁方法阻碍国家机关工作人员依法执行职务的，处三年以下有期徒刑、拘役、管制或者罚金。以暴力、威胁方法阻碍全国人民代表大会和地方各级人民代表大会代表依法执行代表职务的，依照前款的规定处罚。在自然灾害和突发事件中，以暴力、威胁方法阻碍红十字会工作人员依法履行职责的，依照第一款的规定处罚。故意阻碍国家安全机关、公安机关依法执行国家安全工作任务，未使用暴力、威胁方法，造成严重后果的，依照第一款的规定处罚。",
+    "acc": 0.5523809523809524
+},
+{
+    "article": 343,
+    "rule": "IF (违反矿产资源法) AND \n    (\n        未取得采矿许可证 AND \n        (\n            擅自采矿活动 AND \n            (\n                (发生在国家规划矿区 OR 发生在重要国民经济矿区 OR 发生在他人矿区 OR 涉及国家保护矿种) AND \n                (被责令停止开采后拒不停止 OR 造成矿产资源严重破坏)\n            )\n        ) OR \n        (采取破坏性采矿方法 AND 造成矿产资源严重破坏)\n    ) AND NOT \n    (\n        涉及非采矿相关活动如醉酒驾驶、赌博、盗窃、暴力行为, \n        包括但不限于毒品相关犯罪, 个人伤害, 工作场所伤害, 贪污腐败\n    )\nTHEN (触犯第343条法律)\n",
+    "article_text": "第三百四十三条违反矿产资源法的规定，未取得采矿许可证擅自采矿的，擅自进入国家规划矿区、对国民经济具有重要价值的矿区和他人矿区范围采矿的，擅自开采国家规定实行保护性开采的特定矿种，经责令停止开采后拒不停止开采，造成矿产资源破坏的，处三年以下有期徒刑、拘役或者管制，并处或者单处罚金；造成矿产资源严重破坏的，处三年以上七年以下有期徒刑，并处罚金。违反矿产资源法的规定，采取破坏性的开采方法开采矿产资源，造成矿产资源严重破坏的，处五年以下有期徒刑或者拘役，并处罚金。",
+    "acc": 0.2392857142857143
+},
+{
+    "article": 115,
+    "rule": "IF (行为为放火 OR 决水 OR 爆炸 OR 投毒 OR 其他危险方法) \nAND (该行为直接导致结果致人重伤 OR 死亡 OR 公私财产遭受重大损失) \nAND (损失为物理损失非仅经济损失) \nTHEN 触犯第115条法律。\nAND NOT (该案件涉及仅经济损失 OR 非暴力犯罪如贪污 OR 诈骗)",
+    "article_text": "第一百一十五条放火、决水、爆炸、投毒或者以其他危险方法致人重伤、死亡或者使公私财产遭受重大损失的，处十年以上有期徒刑、无期徒刑或者死刑。过失犯前款罪的，处三年以上七年以下有期徒刑；情节较轻的，处三年以下有期徒刑或者拘役。",
+    "acc": 0.2392857142857143
+},
+{
+    "article": 345,
+    "rule": "- **Define Crime Context and Applicability:**\n  - IF (案件类型 == \"森林相关犯罪\") THEN\n    - **Apply Forestry Law (Article 345):**\n      - **Illegal Logging or Deforestation Check:**\n        - IF (未办理许可证 AND (盗伐 OR 滥伐)) THEN\n          - IF (13立方米 <= 立木蓄积量 < 30立方米) THEN\n            - (数量较大 AND 判处三年以下 AND 罚金)\n          - ELSE IF (30立方米 <= 立木蓄积量 < 50立方米) THEN\n            - (数量巨大 AND 判处三至七年 AND 罚金)\n          - ELSE IF (立木蓄积量 >= 50立方米) THEN\n            - (数量特别巨大 AND 判处七年以上 AND 罚金)\n      - **Profit-driven Illegal Activity Check:**\n        - IF (目的为牟利 AND (非法收购 OR 销售) AND 情节严重) THEN\n          - (判处三年以下 AND 罚金)\n      - **Protected Area Violations:**\n        - IF (保护区内盗伐 OR 滥伐) THEN\n          - (从重处罚)\n      - **Consider Mitigating Factors:**\n        - IF (有悔罪表现 OR 社会影响低) THEN\n          - (可酌情从轻处罚)\n  - ELSE\n    - **Non-Forestry Crimes:**\n      - (不适用此法条, 需被识别为非森林相关犯罪)\n\n- **General Context Handling:**\n  - Ensure strict classification system to differentiate \"森林相关犯罪\" and other crimes to prevent misapplication.\n<",
+    "article_text": "第三百四十五条盗伐森林或者其他林木，数量较大的，处三年以下有期徒刑、拘役或者管制，并处或者单处罚金；数量巨大的，处三年以上七年以下有期徒刑，并处罚金；数量特别巨大的，处七年以上有期徒刑，并处罚金。违反森林法的规定，滥伐森林或者其他林木，数量较大的，处三年以下有期徒刑、拘役或者管制，并处或者单处罚金；数量巨大的，处三年以上七年以下有期徒刑，并处罚金。以牟利为目的，在林区非法收购明知是盗伐、滥伐的林木，情节严重的，处三年以下有期徒刑、拘役或者管制，并处或者单处罚金；情节特别严重的，处三年以上七年以下有期徒刑，并处罚金。盗伐、滥伐国家级自然保护区内的森林或者其他林木的，从重处罚。",
+    "acc": 0.4875
+},
+{
+    "article": 245,
+    "rule": "1. Define relevant predicates:\n   - \\( IllegalSearchBody(x) \\): \\( x \\) illegally searched another's body.\n   - \\( IllegalSearchResidence(x) \\): \\( x \\) illegally searched another's residence.\n   - \\( IllegalEntryResidence(x) \\): \\( x \\) illegally entered another's residence.\n   - \\( IsJudicialOfficer(x) \\): \\( x \\) is a judicial officer.\n   - \\( CaseMentionsSearchOrEntry(x) \\): The case \\( x \\) explicitly mentions illegal search or entry actions.\n   - \\( IsFinancialCrime(x) \\): \\( x \\) involves financial crimes.\n   - \\( IsRelevantToArticle245(x) \\): \\( x \\) is relevant to Article 245 actions.\n\n2. Logical statements:\n   - Case relevance determination:\n   \\[\n   CaseMentionsSearchOrEntry(x) \\land \\neg IsFinancialCrime(x) \\rightarrow IsRelevantToArticle245(x)\n   \\]\n\n   - Article 245 Violation:\n   \\[\n   ((IllegalSearchBody(x) \\lor IllegalSearchResidence(x) \\lor IllegalEntryResidence(x)) \\land IsRelevantToArticle245(x)) \\rightarrow ViolationOfArticle245(x)\n   \\]\n\n   - Enhanced judicial punishment:\n   \\[\n   (IsJudicialOfficer(x) \\land ViolationOfArticle245(x)) \\rightarrow StricterPunishment(x)\n   \\]\n\n   - Exclusion of financial crimes:\n   \\[\n   IsFinancialCrime(x) \\rightarrow \\neg ViolationOfArticle245(x)\n   \\]\n<",
+    "article_text": "第二百四十五条非法搜查他人身体、住宅，或者非法侵入他人住宅的，处三年以下有期徒刑或者拘役。司法工作人员滥用职权，犯前款罪的，从重处罚。",
+    "acc": 0.4035714285714286
+},
+{
+    "article": 342,
+    "rule": "The current first-order logic expression is as follows. Please use the expression to reason about the case fact step by step and determine whether expression can correctly describe the illegal act of the case fact.\n判断是否符合法条，法条原文为：第三百四十二条违反土地管理法规，非法占用耕地改作他用，数量较大，造成耕地大量毁坏的，处五年以下有期徒刑或者拘役，并处或者单处罚金。。\n判断规则为:IF 非法占用 AND 改变土地用途 AND (未获批准 OR 违反土地管理法规) AND (数量较大 AND 严重毁坏 OR 种植条件被毁) THEN 触犯第342条。\n",
+    "article_text": "第三百四十二条违反土地管理法规，非法占用耕地改作他用，数量较大，造成耕地大量毁坏的，处五年以下有期徒刑或者拘役，并处或者单处罚金。",
+    "acc": 0.5
+},
+{
+    "article": 263,
+    "rule": "IF (行为包括暴力 OR 威胁)\nAND (针对人员实施)\nAND (强行索要财物 OR 抢夺财物)\nAND (NOT (财物通过欺诈 OR 伪造文件获得))\nAND (NOT 行为涉及欺诈为主要动机)\nTHEN 可能触犯第二百六十三条\n<",
+    "article_text": "第二百六十三条以暴力、胁迫或者其他方法抢劫公私财物的，处三年以上十年以下有期徒刑，并处罚金；有下列情形之一的，处十年以上有期徒刑、无期徒刑或者死刑，并处罚金或者没收财产:（一）入户抢劫的；（二）在公共交通工具上抢劫的；（三）抢劫银行或者其他金融机构的；（四）多次抢劫或者抢劫数额巨大的；（五）抢劫致人重伤、死亡的；（六）冒充军警人员抢劫的；（七）持枪抢劫的；（八）抢劫军用物资或者抢险、救灾、救济物资的。",
+    "acc": 0.4692982456140351
+},
+{
+    "article": 238,
+    "rule": "FOR EACH case:\n  IF (任何行为非法限制他人人身自由)\n  OR (以暴力或威胁手段剥夺他人人身自由)\n  OR (使用暴力为索取债务非法扣押或拘禁他人)\n  THEN 违反法律第238条\n  AND IF (存在殴打、侮辱情节)\n  THEN 从重处罚\n  AND IF (导致人身重伤或者死亡)\n  THEN 适用更高刑罚\n  AND IF (实施者为国家机关工作人员且利用职权)\n  THEN 适用从重处罚\n  ELSE IF (行为涉及纯经济纠纷或欺诈且未涉及人身自由限制)\n  THEN 不适用于法律第238条\n<",
+    "article_text": "第二百三十八条非法拘禁他人或者以其他方法非法剥夺他人人身自由的，处三年以下有期徒刑、拘役、管制或者剥夺政治权利。具有殴打、侮辱情节的，从重处罚。犯前款罪，致人重伤的，处三年以上十年以下有期徒刑；致人死亡的，处十年以上有期徒刑。使用暴力致人伤残、死亡的，依照本法第二百三十四条、第二百三十二条的规定定罪处罚。为索取债务非法扣押、拘禁他人的，依照前两款的规定处罚。国家机关工作人员利用职权犯前三款罪的，依照前三款的规定从重处罚。",
+    "acc": 0.5368421052631579
+},
+{
+    "article": 341,
+    "rule": "1. **Pre-check for Wildlife Context**:\n   - IF (案件详情包含术语: “野生动物” OR “国家重点保护” OR “生态价值”) THEN Proceed with further checks; ELSE Output (B).\n\n2. **Determine Crime Type**:\n   - IF (案件详情包含术语: “猎捕” OR “杀害” OR “非法收购” OR “运输” OR “出售”) AND (对象: “国家重点保护的珍贵、濒危野生动物” OR “有重要生态、科学、社会价值”) THEN Evaluate under Article 341; ELSE Output (B).\n\n3. **Assess Severity of Situation**:\n   - IF (行为地点在: “禁猎区” OR 时间在: “禁猎期”) THEN Add Severity as “情节严重”;\n   - IF (案件涉及: “多人合作”) THEN Add Severity as “情节严重”;\n   - IF (案件涉及: 使用特定工具或方法，如“摩托车” OR “猎狗” OR “粘网” OR “诱捕”) FOR 用于猎捕 THEN Add Severity as “情节严重”;\n   - IF (有“多次违法行为”) OR 不具备有效的狩猎许可 THEN Add Severity as “情节特别严重”;\n   - IF (使用: “枪支” OR 类似武器) THEN Add Severity as “情节特别严重”.\n\n4. **Reinforce Non-Wildlife Exclusion**:\n   - IF (案件与“野生动物”无关) THEN Output (B).\n\n5. **Final Decision**:\n   - IF (评估为“情节严重” OR “情节特别严重”) THEN Output (A);\n   - ELSE Output (B).\n\n<",
+    "article_text": "第三百四十一条非法猎捕、杀害国家重点保护的珍贵、濒危野生动物的，或者非法收购、运输、出售国家重点保护的珍贵、濒危野生动物及其制品的，处五年以下有期徒刑或者拘役，并处罚金；情节严重的，处五年以上十年以下有期徒刑，并处罚金；情节特别严重的，处十年以上有期徒刑，并处罚金或者没收财产。违反狩猎法规，在禁猎区、禁猎期或者使用禁用的工具、方法进行狩猎，破坏野生动物资源，情节严重的，处三年以下有期徒刑、拘役、管制或者罚金。",
+    "acc": 0.64
+},
+{
+    "article": 389,
+    "rule": "IF (谋取不正当利益 AND 给予国家工作人员财物 AND NOT 被勒索)  \nTHEN (属于行贿罪)  \n<",
+    "article_text": "第三百八十九条为谋取不正当利益，给予国家工作人员以财物的，是行贿罪。在经济往来中，违反国家规定，给予国家工作人员以财物，数额较大的，或者违反国家规定，给予国家工作人员以各种名义的回扣、手续费的，以行贿论处。因被勒索给予国家工作人员以财物，没有获得不正当利益的，不是行贿。",
+    "acc": 0.5333333333333333
+},
+{
+    "article": 384,
+    "rule": "IF (国家工作人员利用职务便利 AND 公款) \n    AND (挪用公款数额较大 OR (挪用公款归个人使用 AND (用于非法活动 OR 用于营利活动 OR 超过三个月未归还)))\nTHEN 触犯第384条\nELSE IF (挪用用于救灾 OR 挪用用于抢险 OR 挪用用于防汛 OR 挪用用于优抚 OR 挪用用于扶贫 OR 挪用用于移民 OR 挪用用于救济款物归个人使用)\nTHEN 从重处罚\n<",
+    "article_text": "第三百八十四条国家工作人员利用职务上的便利，挪用公款归个人使用，进行非法活动的，或者挪用公款数额较大、进行营利活动的，或者挪用公款数额较大、超过三个月未还的，是挪用公款罪，处五年以下有期徒刑或者拘役；情节严重的，处五年以上有期徒刑。挪用公款数额巨大不退还的，处十年以上有期徒刑或者无期徒刑。挪用用于救灾、抢险、防汛、优抚、扶贫、移民、救济款物归个人使用的，从重处罚。",
+    "acc": 0.5666666666666667
+},
+{
+    "article": 272,
+    "rule": "1. IF \"职务之便\" (Convenience of Position) AND \"在本单位工作\" (Employed within the Unit) AND \"挪用本单位资金\" (Embezzlement of Unit's Funds) AND (\"归个人使用\" OR \"借贷给他人\") (For Personal Use or Loaned to Others)  \n   AND (\"金额较大\" AND (\"超过三个月未还\" OR \"金额巨大的不退还\") (Significant Amount and More Than Three Months Unreturned or Extremely Large Amount Unreturned))  \n   THEN 触犯第272条法律 (Violation of Article 272).\n\n2. ELSE IF \"通过欺诈手段获得\" (Obtained through Fraud) AND NOT (\"职务之便\" AND \"在本单位工作\")  \n   THEN 考虑欺诈相关法律 (Consider Fraud-Related Statutes for Criminal Conduct).\n\n3. ELSE 考虑其他法律 (Consider Other Applicable Laws).\n<",
+    "article_text": "第二百七十二条公司、企业或者其他单位的工作人员，利用职务上的便利，挪用本单位资金归个人使用或者借贷给他人，数额较大、超过三个月未还的，或者虽未超过三个月，但数额较大、进行营利活动的，或者进行非法活动的，处三年以下有期徒刑或者拘役；挪用本单位资金数额巨大的，或者数额较大不退还的，处三年以上十年以下有期徒刑。国有公司、企业或者其他国有单位中从事公务的人员和国有公司、企业或者其他国有单位委派到非国有公司、企业以及其他单位从事公务的人员有前款行为的，依照本法第三百八十四条的规定定罪处罚。",
+    "acc": 0.5694444444444444
+},
+{
+    "article": 233,
+    "rule": "1. **Define Applicability Context Without Occupational Limitation:**\n   - IF an activity involves hazardous, safety-critical operations, whether occupational or private, such as driving, construction, handling dangerous goods, or any context involving risk,\n\n2. **Include Inevitable Requirement for a Death Resulting from Negligence:**\n   - THEN there must be an act of negligence, defined as failing to comply with relevant regulations or duties of care,\n   - AND directly or indirectly causing another person's death,\n\n3. **Exclude Scenarios That Do Not Involve Death From Negligence:**\n   - AND exclude scenarios that involve intentional acts,\n   - AND exclude cases where no death occurs as a result of the negligence,\n\n4. **Include Non-Occupational Handling of Dangerous Substances:**\n   - OR IF any handling of dangerous materials without proper warning or care results in death, regardless of the setting,\n\n5. **Conclude with Legal Consequences as Defined in Article 233:**\n   - THEN the act constitutes negligent homicide under Article 233,\n\n6. **Prescribe the Legal Penalties:**\n   - Resulting in the prescribed punishment of imprisonment for three to seven years,\n   - OR, if circumstances are less severe, imprisonment for up to three years, unless another law provides a specific monetary outcome.\n\nNote: Ensure all conditions of negligence resulting in actual death are explicitly met for applicability under Article 233, without restricting the context to occupational environments.\n\n<",
+    "article_text": "第二百三十三条过失致人死亡的，处三年以上七年以下有期徒刑；情节较轻的，处三年以下有期徒刑。本法另有规定的，依照规定。",
+    "acc": 0.45454545454545453
+},
+{
+    "article": 163,
+    "rule": "The current first-order logic expression is as follows. Please use the expression to reason about the case fact step by step and determine whether expression can correctly describe the illegal act of the case fact.\n判断是否符合法条，法条原文为：第一百六十三条公司、企业的工作人员利用职务上的便利，索取他人财物或者非法收受他人财物，为他人谋取利益，数额较大的，处五年以下有期徒刑或者拘役；数额巨大的，处五年以上有期徒刑，可以并处没收财产。公司、企业的工作人员在经济往来中，违反国家规定，收受各种名义的回扣、手续费，归个人所有的，依照前款的规定处罚。国有公司、企业中从事公务的人员和国有公司、企业委派到非国有公司、企业从事公务的人员有前两款行为的，依照本法第三百八十五条、第三百八十六条的规定定罪处罚。\n判断规则为:IF\n    (公司、企业工作人员利用职务便利 AND 非法收受他人财物 AND 为他人谋取利益) \n    OR\n    (公司、企业工作人员在工程合作/采销业务中，接受回扣、手续费归个人所有)\nTHEN\n    (触犯《中华人民共和国刑法》第一百六十三条)\nENDIF\n",
+    "article_text": "第一百六十三条公司、企业的工作人员利用职务上的便利，索取他人财物或者非法收受他人财物，为他人谋取利益，数额较大的，处五年以下有期徒刑或者拘役；数额巨大的，处五年以上有期徒刑，可以并处没收财产。公司、企业的工作人员在经济往来中，违反国家规定，收受各种名义的回扣、手续费，归个人所有的，依照前款的规定处罚。国有公司、企业中从事公务的人员和国有公司、企业委派到非国有公司、企业从事公务的人员有前两款行为的，依照本法第三百八十五条、第三百八十六条的规定定罪处罚。",
+    "acc": 0.5
+},
+{
+    "article": 303,
+    "rule": "IF 犯罪行为涉及 \"以营利为目的\" AND (\"聚众赌博\" OR \"开设赌场\" OR \"使用赌博机\" OR \"组织筹码兑换\" OR \"非法出售私彩\") AND NOT (\"财产损毁\" OR \"个人暴力行为\")\nTHEN 触犯第三百零三条。\n<",
+    "article_text": "第三百零三条以营利为目的，聚众赌博、开设赌场或者以赌博为业的，处三年以下有期徒刑、拘役或者管制，并处罚金。",
+    "acc": 0.5466666666666666
+},
+{
+    "article": 176,
+    "rule": "IF (行为涉及公众资金募集 OR 变相募集公众资金)\nAND (未取得金融管理部门的合法授权 OR 缺乏处理公众资金的资质)\nAND (对象为公众募集而非仅内部公司资金)\nAND (因行为导致金融市场的广泛影响 OR 公众投资者的重大损失)\nTHEN \n    触犯法律第176条\n    AND \n    IF (涉及金额巨大 OR 涉及广泛的公众投资者并造成重大损失)\n    THEN 适用三年以上十年以下有期徒刑并处罚金\n    ELSE 适用三年以下有期徒刑或者拘役并处罚金\nELSE\n    IF (行为涉及仅为个人或内部公司行为如盗窃、挪用 OR 属于公司内部或政府部门工作失职)\n    THEN 排除违法公众存款类犯罪, 需适用其他适用法条\n```<",
+    "article_text": "第一百七十六条非法吸收公众存款或者变相吸收公众存款，扰乱金融秩序的，处三年以下有期徒刑或者拘役，并处或者单处二万元以上二十万元以下罚金；数额巨大或者有其他严重情节的，处三年以上十年以下有期徒刑，并处五万元以上五十万元以下罚金。单位犯前款罪的，对单位判处罚金，并对其直接负责的主管人员和其他直接责任人员，依照前款的规定处罚。",
+    "acc": 0.5488372093023256
+},
+{
+    "article": 393,
+    "rule": "The current first-order logic expression is as follows. Please use the expression to reason about the case fact step by step and determine whether expression can correctly describe the illegal act of the case fact.\n判断是否符合法条，法条原文为：第三百九十三条单位为谋取不正当利益而行贿，或者违反国家规定，给予国家工作人员以回扣、手续费，情节严重的，对单位判处罚金，并对其直接负责的主管人员和其他直接责任人员，处五年以下有期徒刑或者拘役。因行贿取得的违法所得归个人所有的，依照本法第三百八十九条、第三百九十条的规定定罪处罚。\n判断规则为:IF 公司为谋取或获得不正当利益（如：项目中标、获得贷款、保留不合法占地、房地产开发） AND 向国家工作人员或地方政务官员行贿 THEN 该行为触犯中华人民共和国刑法第393条。\n",
+    "article_text": "第三百九十三条单位为谋取不正当利益而行贿，或者违反国家规定，给予国家工作人员以回扣、手续费，情节严重的，对单位判处罚金，并对其直接负责的主管人员和其他直接责任人员，处五年以下有期徒刑或者拘役。因行贿取得的违法所得归个人所有的，依照本法第三百八十九条、第三百九十条的规定定罪处罚。",
+    "acc": 0.875
+},
+{
+    "article": 134,
+    "rule": "IF (对象为高风险操作行业的职工，例如工厂、矿山、林场、建筑企业、物流运输企业或类似单位)  \nAND (由于不服从管理 OR 违反安全规章制度 OR 强令工人违章冒险作业 OR 忽视与避免落实安全标准)  \nAND (该行为在工作环境中直接或间接导致重大伤亡事故 OR 造成其他严重后果，如长时间的安全隐患累积导致的事故)  \nTHEN 判定为触犯刑法第一百三十四条。  \n<",
+    "article_text": "第一百三十四条工厂、矿山、林场、建筑企业或者其他企业、事业单位的职工，由于不服管理、违反规章制度，或者强令工人违章冒险作业，因而发生重大伤亡事故或者造成其他严重后果的，处三年以下有期徒刑或者拘役；情节特别恶劣的，处三年以上七年以下有期徒刑。",
+    "acc": 0.6551724137931034
+},
+{
+    "article": 177,
+    "rule": "The current first-order logic expression is as follows. Please use the expression to reason about the case fact step by step and determine whether expression can correctly describe the illegal act of the case fact.\n判断是否符合法条，法条原文为：第一百七十七条有下列情形之一，伪造、变造金融票证的，处五年以下有期徒刑或者拘役，并处或者单处二万元以上二十万元以下罚金；情节严重的，处五年以上十年以下有期徒刑，并处五万元以上五十万元以下罚金；情节特别严重的，处十年以上有期徒刑或者无期徒刑，并处五万元以上五十万元以下罚金或者没收财产：（一）伪造、变造汇票、本票、支票的；（二）伪造、变造委托收款凭证、汇款凭证、银行存单等其他银行结算凭证的；（三）伪造、变造信用证或者附随的单据、文件的；（四）伪造信用卡的。单位犯前款罪的，对单位判处罚金，并对其直接负责的主管人员和其他直接责任人员，依照前款的规定处罚。\n判断规则为:IF (银行卡作为成套出售 OR 银行卡用于网络赌博/诈骗/洗钱)\nAND (收购、出售他人银行卡)\nAND (非法获利 OR 涉及金额重大 OR 多名被害人)\nTHEN 涉嫌触犯刑法第一百七十七条\n",
+    "article_text": "第一百七十七条有下列情形之一，伪造、变造金融票证的，处五年以下有期徒刑或者拘役，并处或者单处二万元以上二十万元以下罚金；情节严重的，处五年以上十年以下有期徒刑，并处五万元以上五十万元以下罚金；情节特别严重的，处十年以上有期徒刑或者无期徒刑，并处五万元以上五十万元以下罚金或者没收财产：（一）伪造、变造汇票、本票、支票的；（二）伪造、变造委托收款凭证、汇款凭证、银行存单等其他银行结算凭证的；（三）伪造、变造信用证或者附随的单据、文件的；（四）伪造信用卡的。单位犯前款罪的，对单位判处罚金，并对其直接负责的主管人员和其他直接责任人员，依照前款的规定处罚。",
+    "acc": 0.5
+},
+{
+    "article": 214,
+    "rule": "1. IF 非销售相关案件 THEN 法条214条不适用。\n\n2. IF 用户未标识案件类型 THEN CHECK 案件类型; IF 案件类型确定 THEN 确定法条适用。\n\n3. IF 案件涉及销售行为 AND 被告人知悉商品为假冒注册商标商品 THEN 检查销售金额和货物数量:\n\n   - a. IF 销售金额 >= x RMB (定义为“数额较大”) THEN 属于《刑法》214条犯罪情节，处三年以下有期徒刑或者拘役，并处或者单处罚金。\n\n   - b. IF 销售金额 >= y RMB (定义为“数额巨大”) THEN 属于《刑法》214条犯罪情节，处三年以上七年以下有期徒刑，并处罚金。\n\n4. IF 被告人有自首情节 AND 违法所得部分退赔 AND 关联销售行为 THEN 检查减轻刑罚可能性:\n\n   - IF 自首情节 >= 一定标准 AND 退赔金额 >= z RMB (定义为重大部分补偿) THEN 刑期和罚金可能从轻考虑。\n\n5. 检查所有证据和案件因素确认无争议后，最终应用适用法条并决定是否适用减轻措施。\n<",
+    "article_text": "第二百一十四条销售明知是假冒注册商标的商品，销售金额数额较大的，处三年以下有期徒刑或者拘役，并处或者单处罚金；销售金额数额巨大的，处三年以上七年以下有期徒刑，并处罚金。",
+    "acc": 0.5172413793103449
+},
+{
+    "article": 338,
+    "rule": "∃x (HazardousWaste(x) ∧ ¬HasTreatmentQualification(Subject) ∧ (IllegalDisposal(x) ∨ IllegalBurial(x)) ∧ CausesSubstantialHarm(EnvironmentOrHuman, x) ∧ ¬MitigationSufficientToReduceHarm(x))  \n<",
+    "article_text": "第三百三十八条违反国家规定，向土地、水体、大气排放、倾倒或者处置有放射性的废物、含传染病病原体的废物、有毒物质或者其他危险废物，造成重大环境污染事故，致使公私财产遭受重大损失或者人身伤亡的严重后果的，处三年以下有期徒刑或者拘役，并处或者单处罚金；后果特别严重的，处三年以上七年以下有期徒刑，并处罚金。",
+    "acc": 0.4318181818181818
+},
+{
+    "article": 351,
+    "rule": "IF (案件类型 = \"非法种植毒品原植物\")\nTHEN\n   IF (罂粟数量 ≥ 500株)\n   THEN\n      IF (罂粟数量 ≥ 3000株)\n      THEN\n         判处五年以上有期徒刑，并处罚金或者没收财产\n      ELSE\n         判处五年以下有期徒刑、拘役或者管制，并处罚金\n      ENDIF\n   ELSE IF (经公安机关处理后又种植)\n   THEN\n      判处五年以下有期徒刑、拘役或者管制，并处罚金\n   ELSE IF (抗拒铲除)\n   THEN \n      判处五年以下有期徒刑、拘役或者管制，并处罚金\n   ENDIF\n   IF (自动投案 AND 如实供述)\n   THEN\n      可在量刑时从轻处罚\n   ENDIF\n   IF (在收获前自动铲除)\n   THEN\n      可免除处罚\n   ENDIF\nENDIF\n<",
+    "article_text": "第三百五十一条非法种植罂粟、大麻等毒品原植物的，一律强制铲除。有下列情形之一的，处五年以下有期徒刑、拘役或者管制，并处罚金：（一）种植罂粟五百株以上不满三千株或者其他毒品原植物数量较大的；（二）经公安机关处理后又种植的；（三）抗拒铲除的。非法种植罂粟三千株以上或者其他毒品原植物数量大的，处五年以上有期徒刑，并处罚金或者没收财产。非法种植罂粟或者其他毒品原植物，在收获前自动铲除的，可以免除处罚。",
+    "acc": 0.8
+},
+{
+    "article": 271,
+    "rule": "IF (行为人利用职务便利) \n   AND ((采取伪造合同 OR 截留货款 OR 少卸货 OR 调换货物计量) AND (涉及单位内部财物))\n   AND (非法占有或窃取单位财物)\n   AND (数额达到法定标准)\n   AND NOT (行为与非法集资或外部融资有关)\nTHEN (触犯中华人民共和国刑法第二百七十一条)\n<",
+    "article_text": "第二百七十一条公司、企业或者其他单位的人员，利用职务上的便利，将本单位财物非法占为己有，数额较大的，处五年以下有期徒刑或者拘役；数额巨大的，处五年以上有期徒刑，可以并处没收财产。国有公司、企业或者其他国有单位中从事公务的人员和国有公司、企业或者其他国有单位委派到非国有公司、企业以及其他单位从事公务的人员有前款行为的，依照本法第三百八十二条、第三百八十三条的规定定罪处罚。",
+    "acc": 0.5066666666666667
+},

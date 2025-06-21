@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Example Case Schema",
+  "type": "object",
+  "properties": {
+    "Identifier": { "type": "string" },
+    "Title": { "type": "string" },
+    "CaseNumber": { "type": ["string", "null"] },
+    "Industries": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "Status": { "type": "string" },
+    "PartyNationalities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "Institution": { "type": "string" },
+    "RulesOfArbitration": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "ApplicableTreaties": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "Decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Title": { "type": "string" },
+          "Type": { "type": "string" },
+          "Date": { "type": ["string", "null"], "format": "date-time" },
+          "Opinions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Title": { "type": "string" },
+                "Type": { "type": "string" },
+                "Date": { "type": ["string", "null"], "format": "date-time" },
+                "Content": { "type": "string" }
+              },
+              "required": ["Title", "Type", "Date"]
+            }
+          },
+          "Content": { "type": "string" }
+        },
+        "required": ["Title", "Type", "Date", "Opinions", "Content"]
+      }
+    }
+  },
+  "required": [
+    "Identifier",
+    "Title",
+    "CaseNumber",
+    "Industries",
+    "Status",
+    "PartyNationalities",
+    "Institution",
+    "RulesOfArbitration",
+    "ApplicableTreaties",
+    "Decisions"
+  ]
+} 
