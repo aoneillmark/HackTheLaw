@@ -1,0 +1,50 @@
+{
+  "Identifier": "Lorem-Ipsum-1503949165",
+  "Title": "Lorem ipsum dolor sit amet v. Lorem",
+  "CaseNumber": "Lorem Case No. IPS/13/16",
+  "Industries": [
+    "Lorem",
+    "Lorem ipsum"
+  ],
+  "Status": "Lorem ipsum dolor sit amet consectetur",
+  "PartyNationalities": [
+    "Lorem"
+  ],
+  "Institution": "Lorem Ipsum - Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum",
+  "RulesOfArbitration": [
+    "Lorem Ipsum (Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum)"
+  ],
+  "ApplicableTreaties": [
+    "Lorem Ipsum (Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum)"
+  ],
+  "Decisions": [
+    {
+      "Title": "Lorem",
+      "Type": "Lorem (Lorem)",
+      "Date": "2016-06-02T00:00:00Z",
+      "Opinions": [
+        {
+            "Title": "Lorem",
+            "Type": "Lorem (Lorem)",
+            "Date": "2016-06-02T00:00:00Z",
+            "Content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+        }
+      ],
+      "Content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+    },
+    {
+      "Title": "Lorem",
+      "Type": "Lorem (Lorem)",
+      "Date": "2016-06-02T00:00:00Z",
+      "Opinions": [
+        {
+            "Title": "Lorem",
+            "Type": "Lorem (Lorem)",
+            "Date": "2016-06-02T00:00:00Z",
+            "Content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+        }
+      ],
+      "Content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
+    }
+  ]
+}
